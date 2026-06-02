@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Заказать Telegram-бота - milkiees6bots</title>
+    <meta name="description" content="Форма заявки на разработку Telegram-бота: username, имя, описание проекта, бюджет и контакты.">
+    <meta name="theme-color" content="#0A0F1A">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <script src="assets/js/main.js" defer></script>
+  </head>
+  <body data-page="order">
+    <a class="skip-link" href="#main">Перейти к содержимому</a>
+    <header class="site-header"><div class="container nav-wrap"><a class="brand" href="index.html"><img class="brand-logo" src="assets/images/milkiees6bots-logo.svg" alt="milkiees6bots" width="1600" height="420"></a><nav class="nav" id="siteNav" aria-label="Основная навигация"><a href="index.html">Главная</a><a href="portfolio.html">Портфолио</a><a href="services.html">Услуги</a><a href="forum.html">Форум</a><a href="order.html" aria-current="page">Заказать</a><a href="about.html">Обо мне</a></nav><div class="nav-actions"><a class="btn btn-primary" href="order.html">Заказать бота</a><button class="menu-toggle" id="menuToggle" type="button" aria-label="Открыть меню" aria-expanded="false" aria-controls="siteNav"><span></span><span></span><span></span></button></div></div></header>
+    <main id="main">
+      <section class="page-hero">
+        <div class="container" data-reveal>
+          <p class="eyebrow">Заявка</p>
+          <h1>Опишите задачу так, как она звучит в бизнесе</h1>
+          <p class="lead">Не нужно готовить идеальное ТЗ. Достаточно цели, примеров действий пользователя и желаемого бюджета. Остальное разложим на сценарии.</p>
+        </div>
+      </section>
+      <section class="section-tight">
+        <div class="container about-grid">
+          <form class="form-card" id="orderForm" data-reveal>
+            <div class="form-grid">
+              <div class="field"><label for="telegram">Telegram Username</label><input id="telegram" name="telegram" type="text" placeholder="@username" required autocomplete="username"></div>
+              <div class="field"><label for="name">Имя</label><input id="name" name="name" type="text" placeholder="Как к вам обращаться" required autocomplete="name"></div>
+              <div class="field field-full"><label for="description">Описание проекта</label><textarea id="description" name="description" placeholder="Что должен делать бот, какие роли и интеграции нужны" required></textarea></div>
+              <div class="field"><label for="budget">Бюджет</label><select id="budget" name="budget" required><option value="">Выберите диапазон</option><option>25-50$</option><option>50-75$</option><option>75-100$</option><option>Нужно оценить</option></select></div>
+              <div class="field"><label for="contacts">Контакты</label><input id="contacts" name="contacts" type="text" placeholder="Telegram, email или телефон" required autocomplete="email"></div>
+            </div>
+            <div class="inline-actions"><button class="btn btn-primary" type="submit">Отправить заявку</button><a class="btn btn-ghost" href="services.html">Сравнить тарифы</a></div>
+            <p class="form-note">Демо-форма сохраняет заявку локально в браузере. Для продакшена здесь предусмотрено место под API-обработчик.</p>
+            <div class="success-box" id="orderSuccess" tabindex="-1">Заявка отправлена, ждите ответ от @procentmd1.</div>
+          </form>
+          <aside class="glass project-body" data-reveal>
+            <p class="eyebrow">Что ускорит оценку</p>
+            <h2>Полезные детали</h2>
+            <ul class="list">
+              <li>Кто будет пользоваться ботом: клиенты, сотрудники, администраторы.</li>
+              <li>Какие данные нужно собирать и куда их отправлять.</li>
+              <li>Нужны ли оплаты, подписки, рассылки или закрытые каналы.</li>
+              <li>Есть ли готовый пример бота, сайта или CRM-процесса.</li>
+            </ul>
+          </aside>
+        </div>
+      </section>
+    </main>
+    <footer class="footer"><div class="container footer-grid"><span>© 2026 milkiees6bots</span><div class="footer-links"><a href="portfolio.html">Портфолио</a><a href="forum.html">Форум</a><a href="about.html">Контакты</a></div></div></footer>
+  </body>
+</html>
