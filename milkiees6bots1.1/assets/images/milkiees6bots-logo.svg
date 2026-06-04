@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="420" viewBox="0 0 1600 420" role="img" aria-labelledby="title desc">
+  <title id="title">milkiees6bots</title>
+  <desc id="desc">Белый точечный логотип milkiees6bots на черном фоне.</desc>
+  <defs>
+    <pattern id="dots" width="13" height="13" patternUnits="userSpaceOnUse">
+      <circle cx="6.5" cy="6.5" r="3.9" fill="#fff"/>
+    </pattern>
+    <filter id="soft" x="-4%" y="-16%" width="108%" height="132%">
+      <feGaussianBlur stdDeviation=".15"/>
+    </filter>
+    <mask id="text-mask">
+      <rect width="1600" height="420" fill="#000"/>
+      <text x="72" y="262" fill="#fff" font-family="Arial Black, Impact, system-ui, sans-serif" font-size="156" font-weight="900" letter-spacing="-3">milkiees6bots</text>
+    </mask>
+  </defs>
+  <rect width="1600" height="420" fill="#000"/>
+  <rect width="1600" height="420" fill="url(#dots)" mask="url(#text-mask)" filter="url(#soft)"/>
+</svg>

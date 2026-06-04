@@ -1,0 +1,34 @@
+[
+  {
+    "id": "orders",
+    "title": "Заказы и оценки проектов",
+    "description": "Разбор задач, бюджетов, сроков и технических ограничений перед стартом разработки.",
+    "icon": "briefcase",
+    "topics": 18,
+    "messages": 94
+  },
+  {
+    "id": "integrations",
+    "title": "Интеграции Telegram API",
+    "description": "Платежи, CRM, Google Sheets, админ-панели, webhooks и внешние сервисы.",
+    "icon": "plug",
+    "topics": 26,
+    "messages": 141
+  },
+  {
+    "id": "automation",
+    "title": "Автоматизация бизнеса",
+    "description": "Сценарии для продаж, поддержки, обучения, уведомлений и внутренних процессов.",
+    "icon": "zap",
+    "topics": 15,
+    "messages": 77
+  },
+  {
+    "id": "showcase",
+    "title": "Витрина проектов",
+    "description": "Показываем готовые решения, интерфейсы и идеи для будущих Telegram-ботов.",
+    "icon": "sparkles",
+    "topics": 11,
+    "messages": 48
+  }
+]

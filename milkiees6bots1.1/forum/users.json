@@ -1,0 +1,42 @@
+[
+  {
+    "id": "u-milk",
+    "name": "milkiees6",
+    "role": "Разработчик",
+    "avatar": "M6",
+    "telegram": "@milkiees6",
+    "joined": "2024-09-18",
+    "reputation": 128,
+    "bio": "Проектирую Telegram-ботов для продаж, поддержки и автоматизации."
+  },
+  {
+    "id": "u-nika",
+    "name": "NikaOps",
+    "role": "Клиент",
+    "avatar": "NO",
+    "telegram": "@nika_ops",
+    "joined": "2025-01-11",
+    "reputation": 34,
+    "bio": "Ищу надежные решения для операционных процессов."
+  },
+  {
+    "id": "u-ivan",
+    "name": "IvanMarket",
+    "role": "Маркетолог",
+    "avatar": "IM",
+    "telegram": "@ivan_market",
+    "joined": "2025-03-02",
+    "reputation": 51,
+    "bio": "Запускаю автоворонки и рассылки без лишней ручной работы."
+  },
+  {
+    "id": "u-anna",
+    "name": "AnnaCRM",
+    "role": "Владелец бизнеса",
+    "avatar": "AC",
+    "telegram": "@anna_crm",
+    "joined": "2025-05-21",
+    "reputation": 27,
+    "bio": "Нужны понятные интеграции с CRM и отчетностью."
+  }
+]
